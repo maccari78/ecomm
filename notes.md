@@ -14,6 +14,10 @@ Github: https://github.com/connerj70/ecomm
 
 -------------
 
+To avoid issues with `./bin/dev`, simply execute `rails tailwindcss:build` before starting your Rails server. This ensures that the Tailwind CSS styles will be properly applied when your server is running.
+
+-------------
+
 email: admin@example.com
 password: password
 
