@@ -23,5 +23,10 @@ To avoid issues with `./bin/dev`, simply execute `rails tailwindcss:build` befor
 
 -------------
 
-- Llegue al minuto 31:50 trabajando en categorias
-- Llegue al minuto 52:15 trabajando en categorias
+Solucione el problema de que no se veian las imagenes en miniatura en el index actualizando ubuntu e instalando libvips
+
+-------------
+
+- Llegue al minuto 00:31:50 trabajando en categorias
+- Llegue al minuto 00:52:15 trabajando en categorias
+- Llegue al minuto 01:09:25 trabajando en productos
