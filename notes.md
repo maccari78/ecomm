@@ -30,4 +30,4 @@ Solucione el problema de que no se veian las imagenes en miniatura en el index a
 - Llegue al minuto 00:31:50 trabajando en categorias
 - Llegue al minuto 00:52:15 trabajando en categorias
 - Llegue al minuto 01:09:25 trabajando en productos
-- 01:11:44
+- Llegue al minuto 01:26:02 trabajando en orders
