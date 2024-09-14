@@ -36,14 +36,17 @@
   </div>
 
   <div class="my-5">
-    <%= link_to "Product Stock", admin_product_stocks_path(admin_product), class: "underline" %>
+    <% if admin_product.persisted? %>
+      <%= link_to "Product Stock", admin_product_stocks_path(admin_product), class: "underline", data: { turbo: false } %>
+    <% else %>
+      <span class="underline">To view stock, first save the product</span>
+    <% end %>
   </div>
 
   <div class="my-5">
     <%= form.label :active %>
     <%= form.check_box :active, class: "block mt-2 h-5 w-5" %>
   </div>
-
   <div class="inline">
     <%= form.submit class: "rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer" %>
   </div>
