@@ -26,6 +26,9 @@ To avoid issues with `./bin/dev`, simply execute `rails tailwindcss:build` befor
 Solucione el problema de que no se veian las imagenes en miniatura en el index actualizando ubuntu e instalando libvips
 
 -------------
+bin/rails generate scaffold admin::order customer_email:string fulfilled:boolean total:integer address:string // n
+
+-------------
 
 - Llegue al minuto 00:31:50 trabajando en categorias
 - Llegue al minuto 00:52:15 trabajando en categorias
