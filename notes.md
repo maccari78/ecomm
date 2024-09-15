@@ -28,7 +28,15 @@ Solucione el problema de que no se veian las imagenes en miniatura en el index a
 
 ---
 
-bin/rails generate scaffold admin::order customer_email:string fulfilled:boolean total:integer address:string // n
+- bin/rails generate scaffold admin::order customer_email:string fulfilled:boolean total:integer address:string // n
+
+---
+
+npm Chart.js https://www.npmjs.com/package/chart.js?activeTab=readme
+
+bin/importmap pin chart.js
+
+stimulus rails https://stimulus.hotwired.dev/handbook/origin
 
 ---
 
@@ -37,3 +45,4 @@ bin/rails generate scaffold admin::order customer_email:string fulfilled:boolean
 - Llegue al minuto 01:09:25 trabajando en productos
 - Llegue al minuto 01:26:02 trabajando en orders
 - Llegue al minuto 01:48:31
+- Llegue al minuto 02:15:22
