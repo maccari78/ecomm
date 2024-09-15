@@ -45,4 +45,4 @@ stimulus rails https://stimulus.hotwired.dev/handbook/origin
 - Llegue al minuto 01:09:25 trabajando en productos
 - Llegue al minuto 01:26:02 trabajando en orders
 - Llegue al minuto 01:48:31
-- 2024-09-15 20:00hs Llegue al minuto 02:15:23
+- 2024-09-15 20:00hs Llegue al minuto 02:15:23 / 05:14:50 trabajando en dashboard
