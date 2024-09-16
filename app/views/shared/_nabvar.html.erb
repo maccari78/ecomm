@@ -1,0 +1,29 @@
+<nav class="fixed w-full top-0 bg-gray-100 z-10 py-4">
+  <div class="container mx-auto px-6">
+    <div class="relative flex items-center justify-between h-16">
+      
+      <!-- Enlace 'Shop' a la izquierda -->
+      <div class="flex items-center space-x-10">
+        <%= link_to 'Shop', root_path, class: "text-gray-500 hover:underline py-2 rounded-md text-md font-medium" %>
+      </div>
+      
+      <!-- Logo centrado -->
+      <div class="flex-shrink-0 flex items-center">
+        <%= link_to root_path do %>
+          <%= image_tag 'logo.png', class: 'block lg:hidden h-20 w-auto' %>
+        <% end %>
+        <%= link_to root_path do %>
+          <%= image_tag 'logo.png', class: 'hidden lg:block h-20 w-auto' %>
+        <% end %>
+      </div>
+      
+      <!-- Carrito de compras a la derecha -->
+      <div class="flex items-center space-x-10">
+        <%= link_to root_path, class: "text-gray-500 hover:underline py-2 rounded-md text-md font-medium" do %>
+          <%= icon 'fa-solid', 'shopping-cart' %>
+        <% end %>
+      </div>
+      
+    </div>
+  </div>
+</nav>
