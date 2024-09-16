@@ -20,8 +20,8 @@ export default class extends Controller {
   }
 
   initializeChart() {
-    const data = this.revenueValue.length ? this.revenueValue.map(item => item[1]) : [10, 20, 30, 40, 50, 60, 70]
-    const labels = this.revenueValue.length ? this.revenueValue.map(item => item[0]) : ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    const data = this.revenueValue.map(item => item[1]/100.0)
+    const labels = this.revenueValue.map(item => item[0])
 
     const ctx = this.element.getContext('2d')
 
