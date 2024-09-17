@@ -1,80 +1,77 @@
 import { Controller } from "@hotwired/stimulus"
-import { Chart, registerables } from 'chart.js'
-
-Chart.register(...registerables)
+import Chart from 'chart.js/auto'
 
 export default class extends Controller {
   static values = { revenue: Array }
-  
-  chart = null
 
   connect() {
+    console.log("Dashboard controller connected")
+    console.log("Revenue data:", this.revenueValue)
     this.initializeChart()
   }
 
-  disconnect() {
-    if (this.chart) {
-      this.chart.destroy()
-      this.chart = null
-    }
-  }
-
   initializeChart() {
-    const data = this.revenueValue.map(item => item[1]/100.0)
-    const labels = this.revenueValue.map(item => item[0])
-
-    const ctx = this.element.getContext('2d')
-
-    if (this.chart) {
-      this.chart.destroy()
+    const canvas = this.element.querySelector('canvas')
+    if (!canvas) {
+      console.error('Canvas element not found')
+      return
     }
 
+    console.log("Canvas found, initializing chart")
+
+    const ctx = canvas.getContext('2d')
     this.chart = new Chart(ctx, {
       type: 'line',
       data: {
-        labels: labels,
+        labels: this.revenueValue.map(item => item[0]),
         datasets: [{
-          label: 'Revenue $',
-          data: data,
-          borderWidth: 3,
-          fill: true,
+          label: 'Revenue',
+          data: this.revenueValue.map(item => item[1] / 100), // Convert cents to dollars
           borderColor: 'rgb(75, 192, 192)',
           tension: 0.1
         }]
       },
       options: {
         responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: {
-            display: false
-          }
-        },
         scales: {
           x: {
-            grid: {
-              display: false
-            },
-            ticks: {
-              display: true
+            title: {
+              display: true,
+              text: 'Day of Week'
             }
           },
           y: {
             beginAtZero: true,
+            title: {
+              display: true,
+              text: 'Revenue ($)'
+            },
             ticks: {
-              callback: function(value) {
-                return '$' + value;
+              callback: function(value, index, values) {
+                return '$' + value.toFixed(2);
               }
-            },
-            border: {
-              dash: [5, 5]
-            },
-            grid: {
-              color: "#d4f3ef"
+            }
+          }
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: function(context) {
+                let label = context.dataset.label || '';
+                if (label) {
+                  label += ': ';
+                }
+                if (context.parsed.y !== null) {
+                  label += new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(context.parsed.y);
+                }
+                return label;
+              }
             }
           }
         }
       }
     })
+
+    console.log("Chart initialized")
   }
 }
