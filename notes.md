@@ -30,8 +30,8 @@ Solucione el problema de que no se veian las imagenes en miniatura en el index a
 
 Después de hacer cambios importantes en la configuración de Tailwind o actualizar gemas relacionadas con assets, puede ser útil ejecutar estos comandos.
 Forzar la recompilación de assets:
-- Ejecuta `rails assets:clobber para limpiar los assets precompilados.
-- Luego ejecuta rails assets:precompile para recompilar todos los assets.
+- Ejecuta `rails assets:clobber` para limpiar los assets precompilados.
+- Luego ejecuta `rails assets:precompile` para recompilar todos los assets.
 
 ---
 
@@ -50,4 +50,6 @@ stimulus rails https://stimulus.hotwired.dev/handbook/origin
 - Llegue al minuto 01:48:31
 - 2024-09-15 20:00hs Llegue al minuto 02:15:23 / 05:14:50 trabajando en dashboard
 - 2024-09-16 22:01hs Llegue al minuto 02:35:14 / 05:14:50 trabajando en Home & Admin Home
+- 2024-09-17 18:00hs Llegue al minuto 02:56:20 / 05:14:50 footer OK
+
 
