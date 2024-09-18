@@ -55,5 +55,8 @@ stimulus rails https://stimulus.hotwired.dev/handbook/origin
 - 2024-09-16 22:01hs Llegue al minuto 02:35:14 / 05:14:50 trabajando en Home & Admin Home
 - 2024-09-17 18:00hs Llegue al minuto 02:56:20 / 05:14:50 footer OK
 - 2024-09-17 18:53hs Llegue al minuto 03:05:27 / 05:14:50 category show page OK
+- 2024-09-18 17:10hs Llegue al minuto 03:15:06 / 05:14:50 product show page OK
+- 2024-09-18 20:23hs Llegue al minuto 03:22:17 / 05:14:50 'product working on products controller & show'
+
 
 
