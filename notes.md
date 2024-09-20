@@ -54,37 +54,16 @@ stimulus rails https://stimulus.hotwired.dev/handbook/origin
 - 2024-09-16 22:01hs Llegue al minuto 02:35:14 / 05:14:50 trabajando en Home & Admin Home
 - 2024-09-17 18:53hs Llegue al minuto 03:05:27 / 05:14:50 category show page OK
 - 2024-09-18 20:23hs Llegue al minuto 03:22:17 / 05:14:50 'working on products controller & show'
-- 2024-09-18 20:23hs Llegue al minuto 04:03:46 / 05:14:50 'stripe OK'
+- 2024-09-18 22:23hs Llegue al minuto 04:03:46 / 05:14:50 'stripe OK'
 
 ---
 
 # Stripe Test Data
 
-Use this information to fill out the Stripe checkout form for testing purposes:
-
 ## Card Information
 - Card Number: 4242 4242 4242 4242
-  (This is a Stripe test card number that will always succeed)
-- Expiration Date: Any future date (e.g., 12/25)
-- CVC: Any 3 digits (e.g., 123)
-
-## Personal Information
-- Name: John Doe
-- Email: johndoe@example.com
-
-## Billing Address
-- Address: 123 Test Street
-- City: Testville
-- State/Province: Test State
-- ZIP/Postal Code: 12345
-- Country: United States
-
-## Phone
-- Phone Number: (555) 555-5555
-
-Remember, for testing in Stripe's test mode:
-- Any future date can be used for the expiration date
-- Any 3-digit number can be used for the CVC
-- Any valid-format postal code can be used (e.g., 12345 for US)
+- Expiration Date:  12/25
+- CVC: 123
+- Any valid-format postal code: 12345 for US
 
 
