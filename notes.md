@@ -30,6 +30,7 @@ Solucione el problema de que no se veian las imagenes en miniatura en el index a
 
 Después de hacer cambios importantes en la configuración de Tailwind o actualizar gemas relacionadas con assets, puede ser útil ejecutar estos comandos.
 Forzar la recompilación de assets:
+
 - Ejecuta `rails assets:clobber` para limpiar los assets precompilados.
 - Luego ejecuta `rails assets:precompile` para recompilar todos los assets.
 
@@ -42,9 +43,10 @@ bin/importmap pin chart.js
 stimulus rails https://stimulus.hotwired.dev/handbook/origin
 
 ---
-- En ancho 640, 768, 1240 se ve perfecto pero en pantalla completa queda mucho margen vacio a la derecha y a la izquierda
----
 
+- En ancho 640, 768, 1240 se ve perfecto pero en pantalla completa queda mucho margen vacio a la derecha y a la izquierda
+
+---
 
 - Llegue al minuto 00:31:50 trabajando en categorias
 - Llegue al minuto 01:09:25 trabajando en productos
@@ -54,16 +56,16 @@ stimulus rails https://stimulus.hotwired.dev/handbook/origin
 - 2024-09-16 22:01hs Llegue al minuto 02:35:14 / 05:14:50 trabajando en Home & Admin Home
 - 2024-09-17 18:53hs Llegue al minuto 03:05:27 / 05:14:50 category show page OK
 - 2024-09-18 20:23hs Llegue al minuto 03:22:17 / 05:14:50 'working on products controller & show'
-- 2024-09-18 22:23hs Llegue al minuto 04:03:46 / 05:14:50 'stripe OK'
+- 2024-09-19 22:23hs Llegue al minuto 04:03:46 / 05:14:50 'stripe OK'
+- 2024-09-20 19:34hs Llegue al minuto 04:23:28 / 05:14:50 working on stripe and admin dashboard
 
 ---
 
 # Stripe Test Data
 
 ## Card Information
+
 - Card Number: 4242 4242 4242 4242
-- Expiration Date:  12/25
+- Expiration Date: 12/25
 - CVC: 123
 - Any valid-format postal code: 12345 for US
-
-
