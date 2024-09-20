@@ -25,4 +25,9 @@ Rails.application.routes.draw do
 
   get "admin" => "admin#index"
   get "cart" => "carts#show"
+  post "checkout" => "checkouts#create"
+
+  # Stripe checkout routes
+  get 'checkout/success', to: 'checkouts#success'
+  get 'checkout/cancel', to: 'checkouts#cancel'
 end
