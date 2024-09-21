@@ -61,11 +61,4 @@ stimulus rails https://stimulus.hotwired.dev/handbook/origin
 
 ---
 
-# Stripe Test Data
 
-## Card Information
-
-- Card Number: 4242 4242 4242 4242
-- Expiration Date: 12/25
-- CVC: 123
-- Any valid-format postal code: 12345 for US
