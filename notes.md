@@ -42,16 +42,18 @@ bin/importmap pin chart.js
 
 stimulus rails https://stimulus.hotwired.dev/handbook/origin
 
+pagination https://github.com/ddnexus/pagy
+
 ---
 
 - En ancho 640, 768, 1240 se ve perfecto pero en pantalla completa queda mucho margen vacio a la derecha y a la izquierda
 
 ---
 
-- Llegue al minuto 00:31:50 trabajando en categorias
-- Llegue al minuto 01:09:25 trabajando en productos
-- Llegue al minuto 01:26:02 trabajando en orders
-- Llegue al minuto 01:48:31
+- 2024-09-11 20:00hs Llegue al minuto 00:31:50 / 05:14:50 trabajando en categorias
+- 2024-09-12 20:00hs Llegue al minuto 01:09:25 / 05:14:50 trabajando en productos
+- 2024-09-13 20:00hs Llegue al minuto 01:26:02 / 05:14:50 trabajando en orders
+- 2024-09-14 20:00hs Llegue al minuto 01:48:31 / 05:14:50
 - 2024-09-15 20:00hs Llegue al minuto 02:15:23 / 05:14:50 trabajando en dashboard
 - 2024-09-16 22:01hs Llegue al minuto 02:35:14 / 05:14:50 trabajando en Home & Admin Home
 - 2024-09-17 18:53hs Llegue al minuto 03:05:27 / 05:14:50 category show page OK
