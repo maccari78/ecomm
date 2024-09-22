@@ -8,17 +8,5 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 #   
-admin_email = 'admin@example.com'
-admin_password = 'password'
-
-unless Admin.exists?(email: admin_email)
-  Admin.create!(
-    email: admin_email,
-    password: admin_password,
-    password_confirmation: admin_password
-  )
-  puts "Admin user created with email: #{admin_email}"
-else
-  puts "Admin user already exists with email: #{admin_email}"
-end
+Admin.create!(email: "admin@example.com", password: "password")
 
