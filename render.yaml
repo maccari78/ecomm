@@ -21,3 +21,6 @@ services:
         sync: false
       - key: WEB_CONCURRENCY
         value: 2 # sensible default
+    postDeploy:
+      - "bundle exec rails db:migrate"
+      - "bundle exec rails db:seed"
