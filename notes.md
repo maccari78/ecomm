@@ -36,6 +36,11 @@ Forzar la recompilación de assets:
 
 ---
 
+Abrir y editar credentials.yml: 
+- EDITOR="code --wait" bin/rails credentials:edit
+
+---
+
 npm Chart.js https://www.npmjs.com/package/chart.js?activeTab=readme
 
 bin/importmap pin chart.js
