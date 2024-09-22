@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module Ecomm
   class Application < Rails::Application
+    config.autoloader = :classic
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.1
 
