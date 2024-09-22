@@ -59,5 +59,6 @@ stimulus rails https://stimulus.hotwired.dev/handbook/origin
 - 2024-09-19 22:23hs Llegue al minuto 04:03:46 / 05:14:50 'stripe OK'
 - 2024-09-20 19:34hs Llegue al minuto 04:23:28 / 05:14:50 working on stripe and admin dashboard
 - 2024-09-21 21:48hs Llegue al minuto 04:44:24 / 05:14:50 fix clear button
+- 2024-09-21 22:25hs Llegue al minuto 04:50:52 / 05:14:50 category filter
 
 ---
