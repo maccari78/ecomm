@@ -20,11 +20,11 @@ password: password
 
 ---
 
-To avoid issues with `./bin/dev`, simply execute `rails tailwindcss:build` before starting your Rails server. This ensures that the Tailwind CSS styles will be properly applied when your server is running.
+Solucione el problema de que no se veian las imagenes en miniatura en el index actualizando ubuntu e instalando libvips
 
 ---
 
-Solucione el problema de que no se veian las imagenes en miniatura en el index actualizando ubuntu e instalando libvips
+To avoid issues with `./bin/dev`, simply execute `rails tailwindcss:build` before starting your Rails server. This ensures that the Tailwind CSS styles will be properly applied when your server is running.
 
 ---
 
@@ -43,10 +43,6 @@ bin/importmap pin chart.js
 stimulus rails https://stimulus.hotwired.dev/handbook/origin
 
 pagination https://github.com/ddnexus/pagy
-
----
-
-- En ancho 640, 768, 1240 se ve perfecto pero en pantalla completa queda mucho margen vacio a la derecha y a la izquierda
 
 ---
 
