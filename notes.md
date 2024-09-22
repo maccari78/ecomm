@@ -58,7 +58,6 @@ stimulus rails https://stimulus.hotwired.dev/handbook/origin
 - 2024-09-18 20:23hs Llegue al minuto 03:22:17 / 05:14:50 'working on products controller & show'
 - 2024-09-19 22:23hs Llegue al minuto 04:03:46 / 05:14:50 'stripe OK'
 - 2024-09-20 19:34hs Llegue al minuto 04:23:28 / 05:14:50 working on stripe and admin dashboard
+- 2024-09-21 21:48hs Llegue al minuto 04:44:24 / 05:14:50 fix clear button
 
 ---
-
-
