@@ -32,4 +32,6 @@ Rails.application.routes.draw do
   get 'checkout/cancel', to: 'checkouts#cancel'
 
   post '/webhooks', to: 'webhooks#stripe'
+
+  get '/admin/setup', to: 'admin_setup#check'
 end
