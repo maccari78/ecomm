@@ -16,7 +16,7 @@ bundle exec rails db:migrate
 
 # Post-deploy: Crear Admin si no existe
 echo "Creating Admin user if not exists..."
-bundle exec rails runner 'Admin.create!(email: "admin@example.com", password: "password", password_confirmation: "password") unless Admin.exists?(email: "admin@example.com")'
+bundle exec rails runner 'Admin.create!(email: "maccari78@gmail.com", password: "n0m3nN3sc10", password_confirmation: "n0m3nN3sc10") unless Admin.exists?(email: "admin@example.com")'
 
 echo "Admin user count:"
 bundle exec rails runner 'puts Admin.count'
