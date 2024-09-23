@@ -23,3 +23,7 @@ bundle exec rails runner 'puts Admin.count'
 
 echo "Admin email:"
 bundle exec rails runner 'puts Admin.first.email if Admin.count > 0'
+
+echo "Verificando creación de Admin..."
+bundle exec rails runner 'puts Admin.find_by(email: "admin@example.com").inspect'
+
