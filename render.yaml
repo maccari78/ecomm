@@ -10,7 +10,6 @@ services:
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
-    # preDeployCommand: "bundle exec rails db:migrate" # preDeployCommand only available on paid instance types
     startCommand: "bundle exec rails server"
     envVars:
       - key: DATABASE_URL
@@ -20,7 +19,7 @@ services:
       - key: RAILS_MASTER_KEY
         sync: false
       - key: WEB_CONCURRENCY
-        value: 2 # sensible default
+        value: 2
     postDeploy:
       - "bundle exec rails db:migrate"
-      - "bundle exec rails db:seed"
+      - "bundle exec rails runner 'Admin.create!(email: \"admin@example.com\", password: \"password\") unless Admin.exists?(email: \"admin@example.com\")'"
