@@ -23,5 +23,5 @@ services:
     postDeploy:
       - "bundle exec rails db:migrate"
       - "bundle exec rails runner 'Admin.create!(email: \"admin@example.com\", password: \"password\", password_confirmation: \"password\") unless Admin.exists?(email: \"admin@example.com\")'"
-      - "bundle exec rails runner 'puts \"Admin count: #{Admin.count}\"'"
-      - "bundle exec rails verify:admin"
+      - "bundle exec rails runner 'puts Admin.count'"
+      - "bundle exec rails runner 'puts Admin.first.email if Admin.count > 0'"
