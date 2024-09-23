@@ -64,5 +64,6 @@ pagination https://github.com/ddnexus/pagy
 - 2024-09-21 21:48hs Llegue al minuto 04:44:24 / 05:14:50 fix clear button
 - 2024-09-21 22:25hs Llegue al minuto 04:50:52 / 05:14:50 category filter
 - 2024-09-22 22:45hs Llegue al minuto 05:08:20 / 05:14:50 deploy OK working on create admin 
+- 2024-09-23 13:39hs anda todo y esta desplegado en Render solo quedan algunos retoques
 
 ---
