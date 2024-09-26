@@ -49,6 +49,8 @@ stimulus rails https://stimulus.hotwired.dev/handbook/origin
 
 pagination https://github.com/ddnexus/pagy
 
+mantener la app "despierta" https://uptimerobot.com/
+
 ---
 
 - 2024-09-11 20:00hs Llegue al minuto 00:31:50 / 05:14:50 trabajando en categorias
