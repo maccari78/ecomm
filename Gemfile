@@ -79,3 +79,6 @@ gem "stripe", "~> 12.6"
 gem "pagy", "~> 9.0"
 
 gem "aws-sdk-s3", require: false
+
+gem 'cloudinary', '~> 1.24.0'
+gem 'carrierwave', '~> 2.2'
